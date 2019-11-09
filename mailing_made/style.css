@@ -1,0 +1,221 @@
+/* Newlatter de 600px, centré*/
+body
+{
+    width: 600px;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+/* Lignes de séparation */
+hr
+{
+    border: solid black 0.3px;
+}
+
+/* L'Header */
+header
+{
+    height: 50px;
+    margin-top: 15px;
+}
+
+header img
+{
+    max-width: 300px;
+    margin-left: 230px;
+}
+
+header div
+{
+    width: 200px;
+    float: right;
+}
+
+header div em
+{
+    font-style: normal;
+    font-size: 12px;
+    float: right;
+}
+
+header div a, footer a
+{
+    color: black;
+    text-align: right;
+    float: right;
+}
+
+header div a:hover, footer a:hover
+{
+    color: blue;
+}
+
+hr
+{
+    clear: both;
+}
+
+/* Article */
+
+/*entête*/
+div h1
+{
+    font-size: 35px;
+    text-align: center;
+    margin: 45px 0 20px 0;
+}
+
+div p
+{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.bouton
+{
+    text-decoration: none;
+    background-color: yellow;
+    padding: 7px 12px;
+    margin: 40%;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.bouton:hover
+{
+    color: blue;
+}
+
+/*Div avec Image à gauche*/
+.gauche, .droite
+{
+    height: 235px;
+}
+.gauche div
+{
+    width: 300px;
+    margin: 5px 0;
+    padding: 10px 0 10px     0;
+    float: right;
+}
+.gauche img
+{
+    float: left;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.gauche div h2
+{
+    text-align: center;
+    margin: 25px 0 20px 0;
+}
+
+/*Div avec Image à droite*/
+.droite div
+{
+    width: 300px;
+    margin: 5px 0;
+    padding: 10px 0 10px     0;
+    float: left;
+}
+.droite img
+{
+    float: right;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.droite div h2
+{
+    text-align: center;
+    margin: 25px 0 20px 0;
+}
+
+/*Prix, liste*/
+li
+{
+    display: list-item;
+    margin-right: 27px;
+    float: left;
+}
+ol
+{
+    display: inline;
+}
+#prix
+{
+    height: 120px;
+}
+
+/*Le bouton et l'image*/
+#grsimg
+{
+    margin-top: 20px;
+}
+
+/*Le nav*/
+nav
+{
+    text-align: center;
+}
+
+nav a, #menu a
+{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+nav a:hover, #menu a:hover
+{
+    color: blue;
+}
+
+/*Menu*/
+#menu div
+{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    margin: 30px;
+}
+
+/*Menu réseaux sociaux*/
+#rs a img
+{
+    margin: 30px;
+}
+#rs p
+{
+    margin-bottom: 0;
+}
+
+/*le footer*/
+footer p
+{
+    margin: 0;
+    text-align: center;
+}
+
+#oblique
+{
+    font-style: oblique;
+}
+
+#credit
+{
+    margin-top: 25px;
+}
+
+footer a
+{
+    float: none;
+}

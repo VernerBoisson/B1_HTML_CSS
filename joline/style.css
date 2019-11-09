@@ -1,0 +1,269 @@
+/* CSS de Base */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Open-Sans;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Le titre de la page */
+
+header
+{
+    text-align: center;
+    border-bottom: 1px gray solid;
+}
+
+header img
+{
+    height: 150px;
+}
+
+/* Le menu */
+nav
+{
+    display: inline-block;
+    margin: 20px 70px;
+    width: 70%;
+    position: relative;
+    left: 200px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    padding: 50px 25px;
+    margin: 0px 10px;
+}
+
+/* L'image en haut de page */
+#img_topside
+{
+    margin-bottom: -60px;
+}
+
+#img_topside div, #img_topside a
+{
+    position: relative;
+    top: -500px;
+    left: 300px;
+    color: white;
+}
+
+#img_topside p
+{
+    font-size: 40px;
+}
+
+#img_topside a
+{
+    text-decoration: none;
+}
+
+/* Les articles */
+section{
+    width: 883px;
+    float: left;
+    padding-right: 70px;
+}
+
+article
+{
+    margin-left: 330px;
+    margin-bottom: 50px;
+}
+
+article h2
+{
+    font-size: 29px;
+    line-height: normal;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+article span, article p, aside p
+{
+    color: gray;
+}
+
+article span
+{
+    margin-right: 11px;
+}
+
+article p
+{
+    margin-bottom: 21px;
+}
+
+article a
+{
+    border: gray 1px solid;
+    text-decoration: none;
+    color: black;
+    padding: 5px 25px;
+}
+
+/* Aside */
+aside
+{
+    width: 248px;
+    float: left;
+}
+
+aside div
+{
+    margin-bottom: 40px;
+}
+aside h3
+{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+aside p
+{
+    margin-bottom: 30px;
+}
+aside a
+{
+    color: #BFA279;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+aside td
+{
+    padding-right: 6px;
+}
+
+#quote div
+{
+    background-color: #F7F7FA;
+    padding: 30px 29px;
+    width: 180px;
+    margin: 4px;
+}
+
+
+#quote p
+{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+
+#quote span
+{
+    color: #BFA279;
+    padding-left: 39px;
+}
+/* L'image en bas de la page */
+#img_botside
+{
+    clear: both;
+    margin-bottom: -160px;
+}
+
+#img_botside div
+{
+    position: relative;
+    bottom: 370px;
+}
+
+#img_botside
+{
+    text-align: center;
+}
+
+#img_botside h2
+{
+    font-size: 29px;
+    margin-bottom: 8px;
+}
+
+#img_botside p
+{
+    margin-bottom: 24px;
+    color: #7E7E7E;
+    line-height: 1.2;
+}
+
+#img_botside a
+{
+    text-decoration: none;
+    padding: 8px 13px;
+    color: white;
+    background-color: #BFA279;
+}
+
+/* Pied de page */
+footer
+{
+    background-color: rgb(38,38,38);
+}
+
+footer ol
+{
+    list-style: none;
+}
+
+footer div
+{
+    display: inline-block;
+    margin: 70px 
+}
+
+footer h3
+{
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer a, footer span
+{
+    color: dimgray;
+    text-decoration: none;
+}
+
+footer img
+{
+    filter: invert(85%);
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+    width: 240px;
+}
+
+#lst_art
+{
+    width: 300px;
+    margin: 58px;
+    position: relative;
+    top: 18px;
+}
+
+#bord
+{
+    border-bottom: solid 1px rgb(48,48,48);
+    margin-bottom: 9px;
+    padding-bottom: 9px;
+}
+
+#copyright
+{
+    width: 100%;
+    border-top: solid 1px rgb(48,48,48);
+    margin: 0;
+    padding: 33px 120px;
+}

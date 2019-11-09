@@ -1,0 +1,336 @@
+body
+{
+    width: 700px;
+    font-family: arial;
+    margin: auto;
+}
+
+header
+{
+    margin-bottom: 20px;
+}
+
+header #toto
+{
+    background-color: gainsboro;
+    width: 700px;
+    height: 80px;
+    color: gray;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+header #toto a
+{
+    color: black;
+}
+header #toto a:hover
+{
+    color: blue;
+}
+
+h1
+{
+    float: left;
+    margin: 10px 75px
+}
+
+header div div
+{
+    display: inline;
+    width: 180px;
+    position: relative;
+    right: 30px;
+    top: 10px;
+    margin-right: 6px;
+}
+header div div a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+header div div a span
+{
+    position: relative;
+    top: -10px
+}
+
+nav
+{
+    clear: both;
+    background-color: #3583D0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 700px;
+}
+
+nav a
+{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: white;
+    text-decoration: none;
+    border-right: solid 1px;
+    font-size: 14px;
+}
+
+#lastnav
+{
+    border-right: none
+}
+
+p{
+    text-align: center;
+    font-size: 14px;
+}
+
+#gras
+{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.branche
+{
+    color: #fbb714;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    left: 275px
+}
+
+#afterbranche
+{
+    background-color: #424242;
+    color: white;
+    text-align: center;
+    height: 150px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#afterbranche img
+{
+    float: left;
+    padding: 5px;
+}
+#afterbranche a
+{
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+}
+
+
+h2
+{
+    text-align: center;
+}
+
+table tr td
+{
+    align-content: center;
+    border: solid 1px gray;
+}
+
+table tr td span
+{
+    background-color: black;
+    color: white;
+    padding-left: 92.5px;
+    padding-right: 93.3px;
+}
+table tr td img
+{
+    padding: 4px;
+}
+table tr td a
+{
+    text-decoration: none;
+    color: white;
+    background-color: #fbb714;
+    padding: 5px 30px;
+    position: relative;
+    left: 15px
+}
+
+.p_prix
+{
+    color: #ea5431;
+    font-size: 30px;
+    position: relative;
+    font-weight: bold;
+    left: -30px;
+}
+
+.p2_prix
+{
+    text-decoration: line-through;
+    position: relative;
+    top: -50px;
+    left: 60px;
+    margin-bottom: -50px;
+}
+
+td p
+{
+    clear: both;
+    color: lightgray;
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+.guide
+{
+    background-color: lightgray;
+    width: 334px;
+    float: left;
+    height: 400px;
+    margin: 7px;
+}
+
+.guide h3, .guide p
+{
+    text-align: center;
+    padding: 0 40px
+}
+
+.guide a
+{
+    text-decoration: none;
+    color: white;
+    background-color: #fbb714;
+    padding: 10px 30px;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+    top: 50px
+}
+
+#promo1, #promo2
+{
+    background-color: #424242;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: white;
+    width: 670px;
+    height: 220px;
+}
+
+#promo1 img, #promo2 img
+{
+    float: left;
+}
+
+#promo1 h3, #promo2 h3
+
+{
+    text-align: center;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+#promo1 div, #promo2 div
+{
+    padding: 0 40px 0 350px;
+}
+
+#promo1 a, #promo2 a
+{
+    color: white;
+    text-decoration: none;
+    background-color: #fbb714;
+    padding: 10px 50px;
+    position: relative;
+    left: 60px;
+    top: 30px;
+    font-weight: bold;
+}
+
+#menu
+{
+    height: 110px;
+    background-color: #fbb714;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+#menu ul
+{
+    background-color: #3583D0;
+    list-style: none;
+    padding-top: 20px;
+    height: 120px
+}
+#menu li
+{
+    width: 100px;
+    display: inline-block;
+    margin-right: 50px
+}
+#menu p, #menu a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#menu a
+{
+    font-size: 14px;
+}
+
+footer
+{
+    text-align: center;
+    background-color: gainsboro;
+    padding-bottom: 3px;
+}
+
+footer h4
+{
+    background-color: white;
+    margin-bottom: -15px;
+    font-weight: 100;
+}
+
+#RS
+{
+    list-style: none;
+    background-color: white;
+    padding: 10px;
+}
+#RS li
+{
+    display: inline;
+    margin-right: 30px;
+}
+footer p
+{
+    font-size: 11px;
+    color: dimgray;
+}
+
+footer a
+{
+    color: dimgray;
+}
+footer a:hover
+{
+    color: blue;
+}
+
+
+#email
+{
+    color: blue;
+    text-decoration: none;
+}
