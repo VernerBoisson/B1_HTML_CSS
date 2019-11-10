@@ -12,4 +12,4 @@ Le répertoire [`mailing_mano/`](./mailing_made) contient le sujet de l'évaluat
 
 ## Evaluation 3
 
-Le répertoire [`joline/`](./mailing_made) contient le sujet de l'évaluation 3 ainsi que mon rendu.
+Le répertoire [`joline/`](./joline) contient le sujet de l'évaluation 3 ainsi que mon rendu.
